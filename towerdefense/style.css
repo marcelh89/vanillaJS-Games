@@ -1,5 +1,6 @@
 body {
     background: black;
+    font-family: 'Orbitron', sans-serif;
 }
 
 #canvas1 {
@@ -11,5 +12,5 @@ body {
     width: 900px;
     height: 600px;
     background: white;
-
+    
 }
