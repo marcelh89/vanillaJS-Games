@@ -158,9 +158,9 @@ class Defender {
     draw() {
         //ctx.fillStyle = 'blue';
         //ctx.fillRect(this.x, this.y, this.width, this.height);
-        ctx.fillStyle = 'gold';
+        ctx.fillStyle = 'black';
         ctx.font = '20px Orbitron';
-        ctx.fillText(Math.floor(this.health), this.x + 15, this.y + 30)
+        ctx.fillText(Math.floor(this.health), this.x + 25, this.y + 10)
         if (this.chosenDefender === 1) {
             ctx.drawImage(defender1, this.frameX * this.spriteWidth, 0, this.spriteWidth, this.spriteHeight,
                 this.x, this.y, this.width, this.height)
@@ -168,7 +168,6 @@ class Defender {
             ctx.drawImage(defender2, this.frameX * this.spriteWidth, 0, this.spriteWidth, this.spriteHeight,
                 this.x, this.y, this.width, this.height)
         }
-
 
     }
 
